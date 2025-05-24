@@ -21,27 +21,16 @@ reddit = praw.Reddit(
 )
 
 def generate_prompt(post):
-    styles = [
-        "Make it sarcastic.",
-        "Make it very brief.",
-        "Make it bitter and angry. Include typos",
-        "Make it skeptical and blunt.",
-        "Make it witty or clever.",
-        "Use casual internet slang. Include typos",
-        "Make it sound like a joke reply.",
-        "Use Gen Z-style humor.",
-        "Make it a dismissive one-liner.",
-        "Make minor grammatical or spelling mistakes.",
-        "Your comment should just be criticizing other's comments",
-        "Make a meta comment that critiques the question"
-    ]
-
-    style_instruction = random.choice(styles)
 
     prompt = (
-        f'Reddit post: "{post.title}"\n'
-        f'Generate a realistic concise Reddit-style comment. '
-        f'Try to make your comment as human-like as possible by using Reddit style grammar. Avoid emojis.  {style_instruction}'
+        f'Reddit post title: "{post.title}"\n\n'
+        f'Write a **realistic, concise Reddit-style comment** in response. Your comment will be shown alongside real human comments.\n\n'
+        f'The goal is to make your comment indistinguishable from a human response.\n'
+        f'- Avoid emojis\n'
+        f'- Use natural tone and phrasing\n'
+        f'- Do not explain or introduce the comment\n'
+        f'- Output only the comment text (no preamble or formatting)'
+        f'- Decide whether you should answer genuinely, sarcastically, or some other style'
     )
 
     logging.info(f"Prompt: {prompt}")
@@ -121,7 +110,7 @@ def main():
 
     logger.info("Starting to scrape posts...")
 
-    for post in subreddit.top(time_filter="all", limit=100):
+    for post in subreddit.top(time_filter="year", limit=30):
         if post.id in existing_ids:
             logger.info(f"Skipping duplicate post: {post.id}")
             continue

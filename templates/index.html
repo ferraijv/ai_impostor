@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XBSJ831X7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8XBSJ831X7');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AI Impostor Game</title>
@@ -92,6 +101,7 @@
     <p id="result"></p>
     <p><strong>Score:</strong> <span id="score">0</span></p>
     <button onclick="loadGame()">Next Round</button>
+    <p style="text-align:center;"><a href="/leaderboard">View Leaderboard</a></p>
   </div>
 
   <script>
@@ -104,6 +114,10 @@
       const data = await res.json();
 
       correctIndex = data.answer;
+      model_name = data.model_name;
+
+      sessionStorage.setItem("game_id", crypto.randomUUID());
+
       document.getElementById("post-title").innerText = data.post;
       document.getElementById("result").innerText = "";
 
@@ -130,7 +144,10 @@
         b.disabled = true;
       });
 
-      if (index === correctIndex) {
+      const isCorrect = index === correctIndex;
+      const gameId = sessionStorage.getItem("game_id");
+
+      if (isCorrect) {
         document.getElementById("result").textContent = "✅ Correct!";
         score++;
       } else {
@@ -141,7 +158,19 @@
 
       localStorage.setItem("ai_game_score", score);
       document.getElementById("score").innerText = score;
+
+      fetch("/submit_guess", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          game_id: gameId,
+          guessed_index: index,
+          correct_index: correctIndex,
+          model_used: model_name
+        })
+      });
     }
+
 
     loadGame();
   </script>

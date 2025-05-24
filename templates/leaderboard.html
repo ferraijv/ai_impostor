@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leaderboard - AI Impostor</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎯 Leaderboard</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>Accuracy (%)</th>
+        <th>Total Guesses</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in leaderboard %}
+      <tr>
+        <td>{{ row.model_used }}</td>
+        <td>{{ row.accuracy_percent }}</td>
+        <td>{{ row.total_guesses }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+<p style="text-align:center;"><a href="/">Back Home</a></p>
+</body>
+</html>
