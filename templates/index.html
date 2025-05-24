@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Impostor Game</title>
+  <link rel="icon" href="static/favicon.png" type="image/png">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+
+    p, ul {
+      font-size: 1.1em;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 15px;
+      font-size: 1em;
+      margin: 10px 0;
+      width: 100%;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    button.disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    .comment-block {
+      margin-bottom: 10px;
+    }
+
+    .instructions {
+      background: #eaf0ff;
+      padding: 12px;
+      border-left: 4px solid #007bff;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+
+    #result {
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 AI Impostor</h1>
+    <div class="instructions">
+      One of these comments was written by AI. Can you spot the impostor?
+    </div>
+    <p style="font-size: 0.95em; color: #777; margin-top: -10px; margin-bottom: 20px;">
+      All posts are real and sourced from Reddit. One of the comments is AI-generated.
+    </p>
+    <p><strong>Post:</strong> <span id="post-title">Loading...</span></p>
+    <ul id="comments"></ul>
+
+    <p id="result"></p>
+    <p><strong>Score:</strong> <span id="score">0</span></p>
+    <button onclick="loadGame()">Next Round</button>
+  </div>
+
+  <script>
+    let score = localStorage.getItem("ai_game_score") || 0;
+    let correctIndex = -1;
+    document.getElementById("score").innerText = score;
+
+    async function loadGame() {
+      const res = await fetch("/game");
+      const data = await res.json();
+
+      correctIndex = data.answer;
+      document.getElementById("post-title").innerText = data.post;
+      document.getElementById("result").innerText = "";
+
+      const list = document.getElementById("comments");
+      list.innerHTML = "";
+
+      data.comments.forEach((comment, i) => {
+        const li = document.createElement("li");
+        li.className = "comment-block";
+        const btn = document.createElement("button");
+        btn.textContent = comment;
+        btn.classList.remove("disabled");
+        btn.disabled = false;
+        btn.onclick = () => handleGuess(i);
+        li.appendChild(btn);
+        list.appendChild(li);
+      });
+    }
+
+    function handleGuess(index) {
+      const buttons = document.querySelectorAll("#comments button");
+      buttons.forEach(b => {
+        b.classList.add("disabled");
+        b.disabled = true;
+      });
+
+      if (index === correctIndex) {
+        document.getElementById("result").textContent = "✅ Correct!";
+        score++;
+      } else {
+        document.getElementById("result").textContent =
+          `❌ Nope. The AI was response #${correctIndex + 1}`;
+        score = Math.max(0, score - 1);
+      }
+
+      localStorage.setItem("ai_game_score", score);
+      document.getElementById("score").innerText = score;
+    }
+
+    loadGame();
+  </script>
+</body>
+</html>
