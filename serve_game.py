@@ -75,7 +75,7 @@ def leaderboard():
                 COUNT(*) AS total_guesses
             FROM guesses
             GROUP BY model_used
-            ORDER BY accuracy_percent DESC
+            ORDER BY accuracy_percent
         """)
         rows = cursor.fetchall()
         cursor.close()
