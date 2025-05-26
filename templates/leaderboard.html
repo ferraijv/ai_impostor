@@ -37,23 +37,31 @@
 </head>
 <body>
   <h1>🎯 Leaderboard</h1>
+  <p style="text-align: center; margin-top: 10px; font-size: 1.05em;">
+    Which model is the <strong>most deceptive</strong>? This leaderboard ranks AI by how often humans fail to spot them.
+  </p>
   <table>
     <thead>
       <tr>
         <th>Model</th>
-        <th>Accuracy (%)</th>
+        <th>Deception Rate (%)</th>
         <th>Total Guesses</th>
       </tr>
     </thead>
-    <tbody>
-      {% for row in leaderboard %}
+  <tbody>
+    {% for row in leaderboard %}
+      {% if loop.first %}
+      <tr style="font-weight: bold;">
+        <td>👑 {{ row.model_used }}</td>
+      {% else %}
       <tr>
         <td>{{ row.model_used }}</td>
-        <td>{{ row.accuracy_percent }}</td>
+      {% endif %}
+        <td>{{ 100-row.accuracy_percent }}</td>
         <td>{{ row.total_guesses }}</td>
       </tr>
-      {% endfor %}
-    </tbody>
+    {% endfor %}
+  </tbody>
   </table>
 
   <p style="text-align: center; font-size: 1.1em;">
