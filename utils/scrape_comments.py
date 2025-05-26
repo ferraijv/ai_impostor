@@ -95,7 +95,8 @@ def generate_game_round(post):
     model_names = [
         "gpt-4o",
         "gemini-2.0-flash",
-        "claude-sonnet-4-20250514"
+        "claude-sonnet-4-20250514",
+        "gemini-2.5-pro-preview-05-06"
     ]
 
     model_name = random.choice(model_names)
@@ -105,6 +106,8 @@ def generate_game_round(post):
     if model_name == "gpt-4o":
         ai_comment = call_chatgpt_model(prompt, model_name)
     elif model_name == "gemini-2.0-flash":
+        ai_comment = call_gemini_model(prompt, model_name)
+    elif model_name == "gemini-2.5-pro-preview-05-06":
         ai_comment = call_gemini_model(prompt, model_name)
     elif model_name == "claude-sonnet-4-20250514":
         ai_comment = call_claude_model(prompt, model_name)
@@ -140,7 +143,7 @@ def main():
 
     logger.info("Starting to scrape posts...")
 
-    for post in subreddit.top(time_filter="all", limit=50):
+    for post in subreddit.top(time_filter="all", limit=100):
         if post.id in existing_ids:
             logger.info(f"Skipping duplicate post: {post.id}")
             continue

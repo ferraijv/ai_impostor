@@ -56,7 +56,12 @@
     </tbody>
   </table>
 
+  <p style="text-align: center; font-size: 1.1em;">
+  Total guesses across all models: {{ leaderboard | sum(attribute='total_guesses') }}
+  </p>
+
   <p style="text-align:center;"><a href="/">Back Home</a></p>
+  <br>
 
   <div class="newsletter">
     <h3>📬 Subscribe to the AI Impostor Report</h3>
