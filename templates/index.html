@@ -148,11 +148,11 @@
       const gameId = sessionStorage.getItem("game_id");
 
       if (isCorrect) {
-        document.getElementById("result").textContent = "✅ Correct!";
+        document.getElementById("result").textContent = `✅ Correct! (Model: ${model_name})`;
         score++;
       } else {
         document.getElementById("result").textContent =
-          `❌ Nope. The AI was response #${correctIndex + 1}`;
+          `❌ Nope. The AI was response #${correctIndex + 1} (Model: ${model_name})`;
         score = Math.max(0, score - 1);
       }
 
