@@ -7,6 +7,7 @@ import random
 import os
 import logging
 from google import genai
+import anthropic
 
 logging.basicConfig(
     level=logging.INFO,
@@ -62,6 +63,28 @@ def call_gemini_model(prompt, model_name):
     return ai_comment
 
 
+def call_claude_model(prompt, model_name):
+    client = anthropic.Anthropic(
+        api_key=os.getenv("CLAUDE_API_KEY"),
+    )
+
+    message = client.messages.create(
+        model=model_name,
+        max_tokens=500,
+        temperature=1,
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+    )
+
+
+    logging.info(message)
+
+    ai_comment = message.content[0].text.strip()
+
+    return ai_comment
+
+
 def generate_game_round(post):
     top_comments = [c.body for c in post.comments if hasattr(c, 'body') and len(c.body) > 20 and c.score > 500]
     if len(top_comments) < 3:
@@ -69,7 +92,11 @@ def generate_game_round(post):
 
     prompt = generate_prompt(post)
 
-    model_names = ["gpt-4o", "gemini-2.0-flash"]
+    model_names = [
+        "gpt-4o",
+        "gemini-2.0-flash",
+        "claude-sonnet-4-20250514"
+    ]
 
     model_name = random.choice(model_names)
 
@@ -79,6 +106,8 @@ def generate_game_round(post):
         ai_comment = call_chatgpt_model(prompt, model_name)
     elif model_name == "gemini-2.0-flash":
         ai_comment = call_gemini_model(prompt, model_name)
+    elif model_name == "claude-sonnet-4-20250514":
+        ai_comment = call_claude_model(prompt, model_name)
     else:
         print("No Model Selected")
 
@@ -92,7 +121,8 @@ def generate_game_round(post):
         "post": post.title,
         "comments": all_comments,
         "answer": all_comments.index(ai_comment),
-        "model_name": model_name
+        "model_name": model_name,
+        "over_18": post.over_18
     }
 
 def load_existing_rounds(path="game_rounds.json"):
@@ -110,7 +140,7 @@ def main():
 
     logger.info("Starting to scrape posts...")
 
-    for post in subreddit.top(time_filter="year", limit=30):
+    for post in subreddit.top(time_filter="all", limit=50):
         if post.id in existing_ids:
             logger.info(f"Skipping duplicate post: {post.id}")
             continue

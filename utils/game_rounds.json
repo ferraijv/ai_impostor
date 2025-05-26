@@ -358,5 +358,649 @@
     ],
     "answer": 0,
     "model_name": "gpt-4o"
+  },
+  {
+    "id": "l7530r",
+    "post": "How would you feel about Reddit adding 3 NSFW filters to distinguish between porn, gore, and repetitive posts asking how you would feel about Reddit adding 2 NSFW filters to distinguish between porn and gore?",
+    "comments": [
+      "This is a brilliant idea. Maybe just have 2 NSFW filters. One which covers gore and porn then another for the repetitive questions.",
+      "While we're at it can we add a fourth filter for posts asking if you'd be willing to stub your toe for a billion dollars?",
+      "Honestly, that's probably overkill. Just let us block the NSFW tag entirely if we want.\n",
+      "HOW DO YOU FEEL ABOUT HOW DO YOU FEEL POSTS ABOUT HOW YOU FEEL????"
+    ],
+    "answer": 2,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "f08dxb",
+    "post": "Would you watch a show where a billionaire CEO has to go an entire month on their lowest paid employees salary, without access to any other resources than that of the employee? What do you think would happen?",
+    "comments": [
+      "It\u2019s more than just the money. It\u2019s the lack of security these people endure. Not knowing if you\u2019ll lose your job tomorrow and having no savings. Being kicked out of your home. An unexpected bill you can\u2019t afford, which may lead to increasing debt. \n\nPutting these rich people in a \u201cpoor\u201d lifestyle for a month isn\u2019t enough. Even if they lost their money and homes, they\u2019ll have such a huge network that they\u2019ll be back on their feet in the time it takes for us peons to earn enough to eat for a week. They can never truly understand what it\u2019s like to be poor or ever face that reality again. \n\nSo what would happen? It\u2019d be a completely self-serving advert about how \u201cnow I realise that we need to do more for our employees.\u201d The workers get a small vanity bonus, probably give an immigrant worker with limited English a car, pat themselves on the back. Then two weeks later, we\u2019ve all forgotten about the show and they\u2019ll go back to their old ways.",
+      "I doubt a month is enough to really feel the effect",
+      "Isn\u2019t this almost the same as secret millionaire? Do you guys have that in the US?",
+      "Honestly? It'd be a trainwreck, but yeah, I'd watch. Probably end with them completely misunderstanding the actual problems and patting themselves on the back for \"roughing it.\" They'd \"learn\" some shallow lesson and go back to their mansion completely unchanged.\n"
+    ],
+    "answer": 3,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "iwedc5",
+    "post": "What if God came down one day and said \"It's pronounced 'Jod' then left?",
+    "comments": [
+      "We\u2019d be like, \u201cNo way!\u201d and he\u2019d be like, \u201cYahweh.\u201d\n\nedit: holy shit, y\u2019all are making my day",
+      "\u201cI recognize the council has made a decision, but given that it\u2019s a stupid-ass decision, I\u2019ve elected to ignore it.\u201d",
+      "Guess we'd all have to start saying \"thank Jod it's Friday.\"",
+      "What if Satan came down one day and said ''It's pronounced 'Zlatan' then left?"
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "draola",
+    "post": "How would you feel about a feature where if someone upvotes a crosspost, the original post is upvoted automatically?",
+    "comments": [
+      "what about subs that crosspost from other subs to mock them?",
+      "That seems like a good way to combat reposting and give credit where it's due. I'm generally for it.\n",
+      "Will totally lead to abuse",
+      "The thing is that a good post on one sub might be a bad post on another. If something is relevant in one sub but irrelevant in another, the downvotes from the sub where it's not relevant would take upvotes from the post that's highly relevant."
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "kr8op6",
+    "post": "How would you feel about a \"if you accidentally scroll to the top, you can go back to where you were,\" button for Reddit?",
+    "comments": [
+      "'specially when I'm down 500 pages from top of all after about 4 days of grinding it that far only to lose it all from an accidental computer shut down",
+      "can i post this question next week? mum said it\u2019s my turn.",
+      "For fucks sake stop asking this damn question. It doesn't even belong in this sub",
+      "That would be a game-changer, especially for those marathon reading sessions in big threads. It's so frustrating losing your place and having to scroll forever to find where you left off. I'm all for it!"
+    ],
+    "answer": 3,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "9whgf4",
+    "post": "Stan Lee has passed away at 95 years old",
+    "comments": [
+      "Wow, what a legend. The incredible worlds and characters he created will continue to inspire and entertain for generations. Rest in peace, Stan.",
+      "Seriously, there was a thread in here I was reading earlier on today about who you can\u2019t believe is still alive and someone mentioned Stan Lee. \n\nNo frickin way. ",
+      "God fucking damn it. The queen better stick it out to 2020. His comics were so fucking enjoyable, another great loss :(",
+      "Since I grew up with superheroes and their ideas of morals, protecting the innocent, ect. I feel like it really shaped me morally, and gave me an interest in criminology and upholding the law. RIP Stan Lee!"
+    ],
+    "answer": 0,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "9gx68l",
+    "post": "Reddit, how would you feel about a law that bans radio stations from playing commercials with honking/beeping/siren noises in them?",
+    "comments": [
+      "Honestly, as someone with pretty severe misophonia, I'd be all for it. The amount of times I've instinctively slammed on my imaginary brakes... it's disruptive and dangerous.\n",
+      "This is a bad post. You\u2019re asking a leading question that an overwhelmingly majority already agrees with. \n\nReddit, how would you feel if we had hovercars that didn\u2019t run on gas",
+      "Redditors, what are your thoughts on low hanging fruit Ask Reddit questions and diamonds and vaccines?",
+      "I want to ban AskReddit posts about shit everyone will agree with "
+    ],
+    "answer": 0,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "himsju",
+    "post": "Bill Gates said, \"I will always choose a lazy person to do a difficult job because a lazy person will find an easy way to do it.\" What's a real-life example of this?",
+    "comments": [
+      "Walkie Talkie's. In every job I've ever had these things make your day far less labor intensive if used correctly.",
+      "I knew a guy who had a low level data/reporting job. He had several daily/weekly work responsibilities, including a bunch of reports that needed quite a bit of tweaking from raw data to finished product. But like I said, low level.\n\nWe didn't find out until way later, but he had set up macros for each of his major responsibilities where he could. Once set up, he'd just run the macros to do his work, but then he'd (smartly) hold off on delivering the reports until just a little before the deadlines. \n\nHe'd hit every assignment and was seen as reliable. He also would complain about the workload so people would leave him with that work. I doubt he did a full hour of work a day after he set up what he did.\n\nEventually he left the job for one with better pay. But damn did he work lazy. Also, he was smart not to reveal until the end, because had he told them about it he would have gotten a pat on the back and would have been given a whole other workload, on top of maintaining those macros/etc. Dude milked the job, not the other way around.",
+      "When  Carl Friedrich Gauss, the famous German mathematician and physicist was in elementary school (around 1784), his class was assigned the \"busy work\" task of adding all the numbers from 1 to 100 (1+2+3+4, and so on). This usually kept the class quiet for half an hour or so. Seven year-old Carl  was sitting quietly with the correct answer (5050) while the rest of the class was just starting, so the surprised teacher asked him how he came up with the solution. He replied that he added 1 and 100 and got 101. Then he added 2 and 99, and got 101, 3 plus 98 = 101, and so on. He realized there was a pattern of 50 pairs of numbers with each pair adding up to 101. And 50 x 101 = 5050.",
+      "In college, my group partner was the laziest guy ever. We had to build a complex data entry system for a project, and instead of manually doing it, he wrote a script that automated most of the task in a few hours while the rest of us were planning our slow, manual approach. We might have rolled our eyes at his lack of \"effort,\" but he definitely got us through faster with that shortcut."
+    ],
+    "answer": 3,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "kka536",
+    "post": "What if Earth is like one of those uncontacted tribes in South America, like the whole Galaxy knows we're here but they've agreed not to contact us until we figure it out for ourselves?",
+    "comments": [
+      "I mean we could always just be cosmic ants.\n\nHow often do you go out to your garden and try to communicate with the bugs?",
+      "That's been a sci-fi trope for ages. The Zoo Hypothesis, Dark Forest, Prime Directive... plenty of explanations why we haven't heard anything. Honestly, I hope there's a good reason and we're not just alone.\n",
+      "Alien fanatics would be showing up once a week to tell us about space Jesus.",
+      "That\u2019s already a theory.\n\nEdit: because I\u2019m getting messages and comments about this, I wasn\u2019t trying to belittle the guy or say this in a manner that implies I didn\u2019t want him to post this here. I just thought that maybe he didn\u2019t know this concept already existed as I\u2019ve done this with other ideas and would like to know."
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "dcxylq",
+    "post": "Anthony Bourdain once said \"There's a guy in my head, and all he wants to do is lay in bed all day long, smoke pot, and watch old movies and cartoons. My life is a series of strategems, to avoid, and outwit that guy\". Who is \"that guy\" for you, and what do you do to avoid him?",
+    "comments": [
+      "I hate mornings. I don't like waking up. I don't like breakfast as a genre or activity. I don't see a good reason to be anywhere ever before 10am.\n\nI started forcing myself to wake up early and go to the gym before work. And i hate it so much but it makes me feel so goddam good all day long. It's a shitty healthy dose of morning endorphins that stops me from getting sleepy after lunch, keeps me energized after work, get a better night's sleep. \n\nIt sucks so much and it sucks even more that it improves every aspect of my day because now if i stop i know i'll just start having shitty bad days again and it'll be my dumbass lazy fault with a simple fix.",
+      "We came to an agreement and take turns occupying the same body. It's me from 5:30 am  to 5pm on weekdays. And he gets evenings,  weekends and holidays.",
+      "That guy's kicking my ass right now.",
+      "That guy for me likes to mindlessly scroll on his phone and procrastinate on things that actually need to get done. To avoid him, I keep a to-do list and set short, timed goals for myself. It helps me get into a productive flow instead of falling down a social media rabbit hole."
+    ],
+    "answer": 3,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "q18zrj",
+    "post": "How is everyone enjoying Reddit while Instagram Facebook and whatsapp are all down?",
+    "comments": [
+      "I already exhausted all of my usual subs hours before this happened. The internet is dead to me.\n\nEDIT: Hey mom, you said I'd never amount to anything. Well, look at me now.",
+      "Sorry guys. It's my birthday today, and all the many friends I have posted too many birthday wishes. Crashed the Facebooks.",
+      "I paid my bill thinking it was late LOL",
+      "Finally, some peace and quiet to catch up on all the cat memes I've been missing out on here."
+    ],
+    "answer": 3,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "i4r81a",
+    "post": "It's more than likely that Covid-19 will still be around at Christmas time - how are we going to explain to kids that Santa is still allowed to go into millions of houses?",
+    "comments": [
+      "Leave a bottle of hand gel alongside the mince pie, carrot and sherry.",
+      "I think it would be a great excuse to get them to go to bed. Tell them he won't come unless he knows everyone is shut away in their rooms so he won't accidentally come within 2m of someone.",
+      "I'm sorry, but Santa didn't survive the pandemic little one.",
+      "He's magic. Explaining that is probably easier than explaining anything else about the last few years.\n"
+    ],
+    "answer": 3,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "99eh6b",
+    "post": "Without saying what the category is, what are your top five?",
+    "comments": [
+      "1. Force of Will\n2. Mana Drain\n3. Cryptic Command\n4. Stifle\n5. Mystic Confluence",
+      "* Andre 3000\n* Nas\n* 2Pac\n* Jay Z\n* Black Thought",
+      "1. Ocean\n2. Mountain\n3. Forest\n4. Desert\n5. Tundra",
+      "Bernina, Husqavarna, Janome, Necchi, Singer "
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "ecscwk",
+    "post": "What free things online should everyone take advantage of?",
+    "comments": [
+      "[skiplagged.com](https://www.skiplagged.com) for flights. It\u2019s so good that United sued them and [lost](https://money.cnn.com/2015/05/01/investing/united-airlines-lawsuit-skiplagged/index.html).\n\nThey essentially exploit the pricing manipulation that airlines use. Example, if you want to go from Phoenix to Atlanta, sometimes a ticket from Phoenix to Ft. Lauderdale connecting through Atlanta is cheaper. This website finds those flights for ya. Just don\u2019t check in a bag!\n\nEdit: A succinct [article](https://www.godsavethepoints.com/skiplagged-travel-trick-story/) highlighting tips and risks. Summary: use it sparingly and you'll be good.\n\nEdit 2: The website's creator did an [AMA](https://www.reddit.com/r/IAmA/comments/2o831k/i_run_skiplagged_a_site_being_sued_by_united/) 5 years ago.",
+      "https://thenounproject.com/ has a wide selection of icons. I use them for presentations!",
+      "Public libraries often offer free access to tons of online resources, like e-books, audiobooks, and even some streaming services. Plus, there are platforms like Khan Academy for free courses or Duolingo for language learning. It's incredible how much you can learn for free these days.",
+      "If you're an avid reader like me, then https://www.freebooksy.com/ is a godsend. Lots of ebooks that a free for a limited time period and you can sign up for newsletters in the genres you prefer."
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "80phz7",
+    "post": "With all of the negative headlines dominating the news these days, it can be difficult to spot signs of progress. What makes you optimistic about the future?",
+    "comments": [
+      "Holy fuck, this post was made 7 minutes ago and already has 300 comments?\n\nBut anyway, every day we get [closer and closer](https://med.stanford.edu/news/all-news/2018/01/cancer-vaccine-eliminates-tumors-in-mice.html) to a cure for cancer. My mum told me about her diagnosis on Sunday. Both of her parents died of cancer too, 12 years apart.\n\nHopefully in the near future, it's something we won't have to worry about.",
+      "Honestly, the amount of discussion around mental health is a huge step forward. Even just 10 years ago it felt way more taboo to talk about. We still have a long way to go, but at least the conversation is happening.\n",
+      "I'm reminded of Sam's speech to Frodo in Osgiliath in the Two Towers: \n\"It's like in the great stories Mr. Frodo.The ones that really mattered. Full of darkness and danger they were, and sometimes you didn't want to know the end. Because how could the end be happy? How could the world go back to the way it was when so much bad had happened? But in the end, it's only a passing thing, this shadow. Even darkness must pass. A new day will come. And when the sun shines it will shine out the clearer. Those were the stories that stayed with you, that meant something, even if you were too small to understand why. Folk in those stories had lots of chances of turning back only they didn\u2019t. Because they were holding on to something...That there\u2019s some good in this world, Mr. Frodo. And it\u2019s worth fighting for.\"",
+      "The fact that humanity is getting another mini space race going on. I\u2019d love to see a man set foot on Mars in my lifetime! That, and of course just getting to spend time with all my friends to play Dungeons and Dragons every week\n\nEdit: Ey im fine with my top comment being about D&D and space...lets do d&d in space bois."
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "ilcknh",
+    "post": "Steve Irwin has you pinned down in a headlock, what cool facts does he tell the audience about you and your habitat?",
+    "comments": [
+      "\"This little bugga simulates reproduction up to 5 times a day! Almost exclusively without a mate.\" \n\nThen I imagine he would shove a Dorito in my mouth, and chuck me back into my bedroom.",
+      "Crikey! Check out this magnificent specimen of Homo sapiens! You can tell by the thinning hair and slight paunch that this fella's spent a fair bit of time indoors. Now, his natural habitat is the office cubicle, feeding primarily on lukewarm coffee and the occasional donut. They are highly social creatures, but prone to sudden bouts of stress-induced keyboard smashing. And listen closely, because it's rare to see one outside their usual domain during daylight hours!\n",
+      "\"Oi! Look at this fella..he's of the hairless variety! Rare and silky smooth to the touch, he actually likes when you rub his head! Look at his leg going!\"",
+      "\"ISN'T HE A BEAUTY?! You're alright, fella. You're alright. \n\nThis guy is out looking for a sheila but he isn't having much luck. He's coming in late to the party.\""
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "aicgpz",
+    "post": "[Serious] Americans, would you be in support of putting a law in place that government officials, such as senators and the president, go without pay during shutdowns like this while other federal employees do? Why, or why not?",
+    "comments": [
+      "At face value I would think it's a good idea, but I saw someone pointed out a rather logical reason why it wouldn't: basically the wealthier representatives could wait out the poorer ones.",
+      "I think that could turn into a game of big bank little bank.  The wealthiest politicians could just wait out those with less money in order to get their way.  ",
+      "A better solution would be to cancel recess for everybody involved.\n\nEdit: Just to clarify, ~~recess~~ removing recess means that the senate cannot adjourn.",
+      "Absolutely, I think that would be a fair measure. If other federal employees are going without pay, then the lawmakers, who are essentially responsible for resolving the budget issues, should feel the same urgency to reach a resolution. It might incentivize them to avoid prolonged shutdowns and prioritize the needs of citizens over political gridlock."
+    ],
+    "answer": 3,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "ac9038",
+    "post": "Iceland just announced that every Icelander over the age of 18 automatically become organ donors with ability to opt out. How do you feel about this?",
+    "comments": [
+      "How do I feel about (EXTREMELY POPULAR OPINION)?\n\noh Reddit, you never change. Not even the wording \n\n\nHow do you feel about this?",
+      "I think it's a smart move for public health. With more organ donors, they could save a lot more lives without having to wait for explicit consent. Plus, the opt-out feature gives people who aren't comfortable with it the freedom to make their own choice.",
+      "Unpopular opinion but: I do not like it.\n\n&#x200B;\n\nI am all for organs going to those that need it, and I would hate for organs to decompose and go to waste. \n\n&#x200B;\n\nBut I am very much against the notion that you are automatically subscribed to becoming an organ donor, this would suggest they would have an automatic claim over your body unless you opt out. I principally believe that they do not and should not have any claim to my organs and body unless I willingly opt myself in.",
+      "We've had this in Wales since 2015. I can't remember anyone disagreeing with it."
+    ],
+    "answer": 1,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "kkmgzr",
+    "post": "With Christmas 364 days away, people who already have their decorations up, why?",
+    "comments": [
+      "People who leave them up all year long are truly living in a different dimension. Maybe they just really love twinkling lights and that holiday spirit. Or maybe it's just laziness\u2014who knows?",
+      "The tree actually looks really nice where it is. We might just move it to a corner and take the decorations off of it",
+      "Um..  there are twelve days of Christmas.  Today is day number two.",
+      "In Sweden, we celebrate Christmas for 20 days which results in us celebrating the end of Christmas on the 13th of January. Up until then, you\u2019re supposed to keep the Christmas decorations up."
+    ],
+    "answer": 0,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "hvsxty",
+    "post": "Which legendary Reddit post / comment can you still not get over?",
+    "comments": [
+      "Haven\u2019t seen this posted yet so I\u2019ll add this dudes 4 rules for getting your shit together. \n\nhttps://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af/",
+      "The man who redirected an entire warship to get the sun off his eyes:\n\n&#x200B;\n\n> I was once on a US military ship, having breakfast in the wardroom (officers lounge) when the Operations Officer (OPS) walks in. This guy was the definition of NOT a morning person; he's still half asleep, bleary eyed... basically a zombie with a bagel. He sits down across from me to eat his bagel and is just barely conscious. My back is to the outboard side of the ship, and the morning sun is blazing in one of the portholes putting a big bright-ass circle of light right on his barely conscious face. He's squinting and chewing and basically just remembering how to be alive for today. It's painful to watch. But then zombie-OPS stops chewing, slowly picks up the phone, and dials the bridge. In his well-known I'm-still-totally-asleep voice, he says \"heeeey. It's OPS. Could you... shift our barpat... yeah, one six five. Thanks.\" And puts the phone down. And then he just sits there. Squinting. Waiting. And then, ever so slowly, I realize that that big blazing spot of sun has begun to slide off the zombie's face and onto the wall behind him. After a moment it clears his face and he blinks slowly a few times and the brilliant beauty of what I've just witnessed begins to overwhelm me. By ordering the bridge to adjust the ship's back-and-forth patrol by about 15 degrees, he's changed our course just enough to reposition the sun off of his face. He's literally just redirected thousands of tons of steel and hundreds of people so that he could get the sun out of his eyes while he eats his bagel. I am in awe. He slowly picks up his bagel and for a moment I'm terrified at the thought that his own genius may escape him, that he may never appreciate the epic brilliance of his laziness (since he's not going to wake up for another hour). But between his next bites he pauses, looks at me, and gives me the faintest, sly grin, before returning to gnaw slowly on his zombie bagel. \n\ni still think about it sometimes.",
+      "There was a post called \"What's the most ridiculous thing you've been through?\" where someone shared that they once survived being shot because their Nokia phone literally stopped the bullet. People started sharing unreal yet hilarious stories about indestructible Nokia phones saving them from all sorts of chaos, and I just can't forget how wild and funny that whole thread was.",
+      "The OG post was \"Christians, what would you do if you died and instead of jesus it was anubis\"\n\nBest comment ever: \"Nice fursuit jeezy boi\"\n-u/Winchester247"
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "jpfqtc",
+    "post": "You go to sleep on the 31st of December 2020 and wake up the next day but when you check your phone, it says January 1st 2020, after the first couple of days you realize it's just like groundhog day, what do you do with the information you have about 2020?",
+    "comments": [
+      "I would go to the doctor in early January to check on my kidneys. Maybe we could save them.",
+      "Okay, knowing what I know about 2020? Investing heavily in Zoom and hand sanitizer companies *before* the crash, then pulling everything out before election day. After that? Laying low and enjoying the chaos with a nice cushion of cash. Maybe learn a new language or something. Definitely not going to any concerts.\n",
+      "Show my husband just how much I love him and appreciate him. Hug him longer, kiss him harder, squeeze his warm hands, laugh with him, record his voice, take more pics of him and of us together, not sweat the small stuff, be silly with him, savour every meal he made me, stare into his eyes and marvel in their clarity and sparkle. Lay my head on his chest to hear his heartbeat everyday.\n\nHe died in May at age 31.\n\nI'd give anything to wake up tomorrow and see his bright blue eyes.\n\nEDIT: Oh my goodness, I wrote this at about 3am and then went to sleep, I had no idea it was cause this much attention. Thank you to everyone who has commented, sent me well wishes and love and thank you for all of the lovely awards. Not sure I deserve so much kindness but I sure as hell appreciate it. \n\nHe left our house walking, talking and smiling back at me as he got in to the ambulance and less than 24 hours later I felt his heart stop under my hand. He was already sedated when I arrived at the hospital so im not even sure he knew I was there but I pray he did. No one deserves to think they are dying alone.\n\nHe was the light of my life, my best friend and I miss him more than even I can comprehend.\n\nDon't sweat the small stuff, folks. In the end, it rarely ever matters.\n\nPeace and love to you all",
+      "Spend much more time with my old kitty that passed away on January second and with my old doggo that passed away in September. And spoil them with their favorite treats and lots of fun toys. I miss them so much. This years been rough."
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "70k2ya",
+    "post": "How would you feel about a law that requires people over the age of 70 to pass a specialized driving test in order to continue driving?",
+    "comments": [
+      "I send patients for driver's evaluations if their ability to navigate through my office is concerningly questionable. Unaware drivers are just as dangerous as impaired drivers. ",
+      "Ontario has testing every two years for 80+. 70 is a bit young for that, honestly.\n\nEdit: I'm surprised at how vehemently everyone disagrees with me that 70 is a bit young.  It may be true that I just happen to know a lot of abnormally strong and healthy older people, but most of the 70+ I know in no way fit the sickly, doddering image I think a lot of us have of the elderly.  Just like the majority of 20 and under don't fit the irresponsible, reckless image a lot of people have of kids.\n\nAccording to these (admittedly old) [stats](http://www.allcountries.org/uscensus/1045_age_of_driver_and_number_in.html), the vast majority of traffic fatalities are caused by younger people.  A better solution is to test everyone every few years, and have stricter medical conditions, for everyone.",
+      "I think it's a reasonable idea. Driving requires quick reflexes and sound judgment, and as we age, these can decline. A specialized test could ensure that only those who are still capable and safe continue to drive. It's not about age discrimination, but rather about safety for everyone on the road.",
+      "Everyone should take a standardized road test every 5 years."
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "dtmyxw",
+    "post": "Now that PBS has announced they'll be televising the impeachment hearings, what will the drinking game rules be?",
+    "comments": [
+      "Take a shot every time one of the following is mentioned:\n\n* Fake News\n* Witch Hunt\n* Civil War\n\nTake a shot every time someone:\n\n* Makes a question irrelevant to the proceedings to try and confuse the issue\n* Brings up whataboutism\n* dodges the question instead of answering it\n* blames the other party\n* blames someone else not party affiliated\n* blames someone else within their party\n* returns a question with an insult instead of an answer\n\nI figure you'll be unconscious within fifteen minutes to a half an hour, depending on your tolerance.",
+      "One shot for every \"No one is above the law\"",
+      "Take a sip anytime someone says \"high crimes and misdemeanors.\" Down your drink if Schiff looks like he's about to cry.\n",
+      "1 drink: every time the same Trump or Biden is mentioned\n\n2 drinks: every time Ukraine is mentioned\n\n3 drinks: every time \u201cimpeach\u201d or \u201cimpeachment\u201d is said \n\nFinish your drink: every time someone takes one of those awkward gulps of water"
+    ],
+    "answer": 2,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "ejfvct",
+    "post": "The Pope slapped a woman on day 1 of 2020, world war III is trending on day 2, what will happen on day 3?",
+    "comments": [
+      "I'm guessing on day 3 we'll all wake up to find out that aliens have finally decided to drop by and say hello.",
+      "The day is almost over here in Asia, worry not, it's alright till now.",
+      "The pope is slappin hoes,\nThe US is Blasting Bros,\nAustralia needs a hose,\n\nThis really is the roaring 20s again isn't it?",
+      "Malaysian Airlines MH370 lands in Beijing and no one onboard realizes they lost almost 6 years"
+    ],
+    "answer": 0,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "jp8bdq",
+    "post": "If Reddit were to add an NSFL flair so that we could tell the difference between NSFW (Porn) and NSFL (Gore and stuff) do you think it would be useful? Why or why not?",
+    "comments": [
+      "Yes. Sometimes gore-ish stuff gets onto front page, like the pics showing the beheading of the French teacher.\n\nI would have appreciated a warning...and didn't really was interested seeing something like this.  \n\n\n/dms exploding with dozens of guys asking for links. I don't have one and fuck you all",
+      "But what if it's both",
+      "Absolutely, an NSFL flair would be super useful. It would help filter out content that's not just inappropriate for work but potentially disturbing on a different level. More transparency can help users make informed decisions about what they're exposed to, which is always a good thing. Plus, the clearer the distinctions, the better for fostering a community that's respectful of different comfort levels.",
+      "I've subed to so many subs that have the word 'porn' in it that - apparently - my profile has been flagged nsfw.\n\nPower washing porn, sky porn, earth porn, food porn, etc etc. Zero sex porn.\n\nSo. Yes. Add levels of nsfw. I'd like to not be banned on various subs just because of my  viewing preferences.\n\n\nEdit: I'm sooooo sorry if you've been flagged for posting on my comment here.\n\nHow was I suppose to know it was going to explode like this! Perhaps this is the time we bring this to the attention of whoever can fix it? Clearly it's a popular topic."
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o"
+  },
+  {
+    "id": "f60oog",
+    "post": "How would you feel if the only thing we knew about presidential candidates was their stance on issues...no information on party, name, gender, race, or religious beliefs (or lack thereof)?",
+    "comments": [
+      "It should be like the blind auditions on the voice!",
+      "Honestly, that sounds amazing. It would force people to actually think about the policies and not just vote along party lines. Probably wouldn't happen though, people are too tribal.\n",
+      "The best bullshitter wins, not that that changes much, but without anything to hold them accountable to their statements and commitments its just a mess.",
+      "Interesting in theory, but context - in the form of values or motivations - matters.\n\nFor a very extreme example you can go to r/PoliticalCompassMemes/ and see that two people in a vacuum oppose chattel slavery from Africa, but one of them opposes it because the institution itself is wrong (LibLeft) and the other because they don't want black people in America (AuthRight).\n\nIf you are curious, you could try one of the online tests that does essentially what you're asking. I usually do [ISidewith](https://www.isidewith.com/)."
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "jg4rw0",
+    "post": "Turns out 2021 is just a bizarre and unprecedented as 2020, except its all good things that keep happening, what are they?",
+    "comments": [
+      "My plants are actually thriving this year, no idea why. Also finally got a raise that actually feels like a raise.\n",
+      "January: Vaccine comes. It's free and has no side effects\n\nFebruary: Movies that was supposed to be released 2020 all come out and the theaters are full of masterpieces\n\nMarch: Up and comming artists and authors have spent the lockdown sitting down to write and create. We're starting see the results of that.\n\nApril: Lou Bega releases Mambo no. 6 and it is all people can think about this month.\n\nMay: Turns out that climate change was a hoax. The climate just had a rough century and has learned to chill out more.\n\nJune: An alien escapes Area 51. Turns out he is a nice dude and guests all the late night talk shows. On the inevitable Joe Rogan apparance they both do DMT and learn so much about each other.\n\nJuly: No one know why or how it happened, but suddenly money just isn't an issue anymore.\n\nAugust: The whole alien thing from June has started to affect how we view eachother on the planet. We are seeing a drastic and long lasting decline in terrorism and crime.\n\nSeptember: God blessed us all\n\nOctober-November: Finally some normal and mundane events\n\nDecember: Home Alone remake with the original cast. All I want for christmas is eradicated. You got a memorable present, and you made everyone truly happy with the ones you gave.\n\nEdit: Not to be that thank you for all the awards guy, but I couln't keep it cool. I am grateful and glad to see all the positive comments. I don't have any psychic abilities, but I'm pretty sure this will come true, so I'm just happy to share. Sorry to all I offended regarding the All I Want for christmas thing, but that's just how it seems to be, sorry about that.",
+      "Everybody gets a job with a sustainable salary\n\nEDIT: Hey thanks for my awards random people!!",
+      "3 state solution in the middle east out of nowhere."
+    ],
+    "answer": 0,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "grst2b",
+    "post": "Police Officers of Reddit, what are you thinking when you see cases like George Floyd?",
+    "comments": [
+      "It's sickening. Doesn't matter what the initial call was, there's no excuse for that. Makes everyone look bad and it erodes trust, which makes our job 10x harder.\n",
+      "I used to be a police officer. It was fucking embarrassing going out the day after something like this happened. One of the reason I quit was because I had no pride in my job anymore\n\nFor the people doubting if i used to be a cop or not, this is the only proof i really have. in order to get the 'police officer' flair on /r/protectandserve you need to send the mods a pic of your police issued ID. havent been to that sub since before i quit but here it is https://imgur.com/a/DUK2Nob",
+      "My uncle is a retired police officer, and I called him about this:\n\nHe said that it's horrible that people like this exist. It's has a negative impact on both the police community and the black community. It stirs up animosity between the two, and they end up not trusting. What if a person in the african american community needs to call the police, but don't trust them/fear them?\n\n Not all police officers are like this, many are great people, but the growing number of cases is alarming. Another problem is that because of police unions, officer who should face serious reprecussions, aren't.",
+      "Retired. It disgusts me as the job is difficult enough as it is, working mostly in sensitive neighborhoods. Brutality like this makes it far more difficult."
+    ],
+    "answer": 0,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "n128oc",
+    "post": "People who have Only fans, what is stopping you from upgrading to an air conditioner?",
+    "comments": [
+      "I can't have sex with an air conditioner.",
+      "Because an air conditioner won't show me it's butthole for 2.99 a month.",
+      "Rent is due, bills gotta get paid, and sometimes the AC has gotta wait. Priorities, ya know?\n",
+      "The fan chops up the oxygen molecules and makes it more easier for me to suck em down.\n\n\n Edit:\n A silver for this comment?\n Thank you. I feel like that prostitute in pretty woman."
+    ],
+    "answer": 2,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "1kvahx3",
+    "post": "What's something rich people do that the average person has no idea about?",
+    "comments": [
+      "All those sneaky special perks at Walt Disney World.\nHidden doors lead to secret hallways away from the public.\nHidden rooms and special amenities for them so they never have to wait for anything.",
+      "They'll buy multiple of the same expensive item (like shoes or a coat) just in case something happens to one. No need to repair or clean, just replace.\n",
+      "Vacations aren\u2019t just for fun. They actually meet up with other wealthy families they\u2019ve befriended at their yearly luxury resort visit",
+      "I grew up poor, I\u2019m now lower upper class ($600k household income) and know a bunch of decamillionaires (top 5 mba, work in finance)\n\nWhat I think would surprise people is how \u201cU\u201d shaped a lot of things are - by that I mean the lower class and upper class act more similar than the middle class.\n\nThe upper and lower class are VERY uncensored and will give their true - often offensive - opinions about race, politics, etc. both in private and on social media.\n\nThe middle, and upper middle class especially, are very censored because they are worried about their career and social status, in a way the poor and rich aren\u2019t.\n\nThe rich of course have better grammar/spelling/arguments."
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "1kv5b82",
+    "post": "What\u2019s the biggest \u201cthey\u2019re definitely cheating\u201d sign you ignored?",
+    "comments": [
+      "Came home and the toilet seat was up. There is a 0.00% chance that she put it up.",
+      "When she got pregnant. I biologically CANT get any woman pregnant. Literally, can-not. But she got pregnant and I somehow lied to myself about it.",
+      "Suddenly needing to \"work late\" every single night, but still finding time to shower and get dressed up before leaving. I was young and dumb and thought he was just really ambitious.\n",
+      "Not allowing posts of the two of us on social media"
+    ],
+    "answer": 2,
+    "model_name": "gemini-2.0-flash"
+  },
+  {
+    "id": "1kv7h2n",
+    "post": "Gamers of Reddit, what are good videogames to play with your non-gamer girlfriend?",
+    "comments": [
+      "Have a lot of experience here. These are my successes :\n\n\nTerraria\n\nStardew Valley\n\nTrine 2 + 4 + 5\n\nOvercooked\n\nIt takes two (bit harder) \n\nSplit fiction (hard)\n\nMario 3d world",
+      "Stardew Valley is perfect for this. My girlfriend who \"doesn't play games\" ended up putting 60 hours into it in like two weeks. Co-op farming is weirdly addictive and not intimidating at all. Also tried Overcooked but that almost ended our relationship lol",
+      "The Lego games are fun for couch co-op.",
+      "Minecraft. Yall can play \"house\" and have a little fantasy life together."
+    ],
+    "answer": 1,
+    "model_name": "claude-sonnet-4-20250514"
+  },
+  {
+    "id": "h8d0k0",
+    "post": "How would you feel about a \"return to where you left off\" button for Reddit?",
+    "comments": [
+      "Like after I close the app and come back or if I accidentally press the \"back\" button and go to the top?",
+      "I think it would be super helpful, especially for those lengthy threads that get constant updates. It can be annoying trying to remember where I left off, and this could save a lot of time scrolling back through endless comments. Definitely a feature I\u2019d use!",
+      "I feel that these circlejerk type questions that start with 'How would you feel..' should be banned.",
+      "I would feel great about no more \u201chow would you feel\u201d questions on this sub."
+    ],
+    "answer": 1,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "l2d1la",
+    "post": "At 9:21 tonight, it will be the 21st minute of the 21st hour of the 21st day of the 21st year of the 21st century. What will you be doing?",
+    "comments": [
+      "Well, NOW I'll have to watch the clock\n..so I guess that's what I'll be doing",
+      "Isnt it the 9:21 during the 22nd hr?",
+      "I'll probably be asleep, so dreaming of 22.",
+      "Whoever was born at 9:21, 21 years ago, is probably pretty stoked."
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "84anfy",
+    "post": "Professor Stephen Hawking has passed away at the age of 76",
+    "comments": [
+      "It's kinda surreal reading this, feel weird right now.",
+      "Stephen Hawking was born on the 300th anniversary of Galileo's death (January 8th, 1942), and passed away on Albert Einstein's birthdate (March 14th). I can't even begin to describe how cool that is",
+      "For those who don't know, he was diagnosed with ALS when he was 21 years old in 1963.\n\nAt the time he was given a life expectancy of 2 years. The man had some serious fight in him",
+      "A true legend. The man who made black holes and the universe accessible to millions of people who would never have understood physics otherwise. His perseverance despite ALS was incredible - doctors gave him 2 years to live when he was 21 and he made it to 76. RIP to one of the greatest minds of our time."
+    ],
+    "answer": 3,
+    "model_name": "claude-sonnet-4-20250514",
+    "over_18": false
+  },
+  {
+    "id": "hvbvpz",
+    "post": "What life changing item can you buy for less than $100?",
+    "comments": [
+      "I bought 8 meals (meal preps) for $96 for someone.  It helped them through a hard time and provided hope.  They just got their own place now and can comfortably afford all their meals on their own.\n\nEdit: Damn it I was going to cash in this good karma for something in life, not fake internet point.",
+      "Your first mechanical keyboard.\n\nBut the second one will be over 100 usd.",
+      "The right shampoo and conditioner. Am dude.\n\nI use this super girly looking stuff called love beauty and planet, and my hair is glorious and I love putting my hands into it. And other people like putting their hands in my hair too. Generally women.\n\nFemale marketed products are vastly superior in so many ways, and dudes won't buy it because they're forced into the men's marketed section with bears and wolves and trees that represent shitty college smelling products that are 12-in-1 body/hair/dish/clothes/car wash. \n\nHair is hair. Choose the products marketed towards people who give a shit about their hair. Be the beautiful man you were meant to be.\n\nEdit: that is a ton of comments. I'm gonna try to get to them later, but for those who want to know, [this is my shampoo](https://www.lovebeautyandplanet.com/us/en/hair/products/shampoo/sulfate-free-argan-oil-&-lavender-shampoo.html) and [this is my conditioner](https://www.lovebeautyandplanet.com/us/en/hair/products/conditioner/argan-oil-&-lavender-conditioner.html). I used to use Aussie brand conditioner, which did decent things, but felt oily.\n\nEdit2: I have straight hair, but have found r/curlygirl to have great resources. Sulphate free shampoo if where it's at.\n\nEdit3: I'm seeing a TON of people recommend Mane and Tail. I'm sorely tempted to try it after reading all these...\n\nEdit4: Holy shit, apparently there's an 18-in-1 soap. And I thought 12-in-1 was absurd. The kind redditor u/Gilthoniel_Elbereth has put forward https://www.drbronner.com/ for your consideration.",
+      "A good chef's knife. I bought a decent 8-inch one for like $60 and it completely changed how I cook. Food prep went from being a chore to actually enjoyable, and everything cooks more evenly when it's cut properly. Can't believe I spent years hacking away with those crappy knives that came in a block set."
+    ],
+    "answer": 3,
+    "model_name": "claude-sonnet-4-20250514",
+    "over_18": false
+  },
+  {
+    "id": "gk8t35",
+    "post": "George Carlin said \u201cThink of how stupid the average person is, and realize half of them are stupider than that.\u201d What real life example have you seen that validates this view?",
+    "comments": [
+      "Had someone argue with me because they where sure that the cavemen were before the dinosaurs and that it is impossible that dinosaurs even existed, she considers mammoth and sabertooth to be dinosaur.",
+      "That trick where you call water by a scary chemical name like dihydrogen monoxide so that people will want to regulate or ban it.",
+      "About half the calls I take on a daily basis.\n\nPeople call 911 to ask whether Walmart is open. To report that they didn't get enough mayo on their burger. To complain that cleanup at a fatality wreck is taking too long. All sorts of silly, out of touch shit.\n\nGranted, there is probably some level of mental illness and/or substance abuse present in those calls. But still.",
+      "I saw a guy at the gas station try to pay for his gas... by showing the cashier a picture of money on his phone. He genuinely seemed confused when it didn't work.\n"
+    ],
+    "answer": 3,
+    "model_name": "gemini-2.0-flash",
+    "over_18": false
+  },
+  {
+    "id": "d0jjc2",
+    "post": "The 2010's decade will be over in 4 months. What do you think people will remember this decade for?",
+    "comments": [
+      "> My generation is going to be known for wanting to die and memes\n\nGuess we can replace generation for decade",
+      "Depression and memes. But really I think mental health will be one of the biggest problems going forward and this is going to be known as the times when it emerged as a problem.",
+      "The Clown Epidemic of '16",
+      "The rise of social media completely taking over everything, Trump, endless superhero movies, and everyone becoming glued to their phones 24/7. Also climate change actually becoming undeniable instead of just a political talking point."
+    ],
+    "answer": 3,
+    "model_name": "claude-sonnet-4-20250514",
+    "over_18": false
+  },
+  {
+    "id": "k18dam",
+    "post": "How do you cope with being treated like you are crazy for following covid safety guidelines, when others around you aren\u2019t doing the same?",
+    "comments": [
+      "If anyone ever said anything to me, I would probably just laugh at them. My mask even says the immune disease I have on it, just for that one purpose...to keep people for giving me shit. Saying that, I mostly stay home, I do no contact shopping, and doctor's appointments. I'll not let anyone make me feel badly for protecting myself or my family. \n\nWe just lost my Aunt today to COVID complications, so I would probably ask if they have lost anyone to Covid and if they said no, I'd tell them to shove their mocking up their...",
+      "I've had a fair share of arguments and have been branded the \"crazy, overprotective new mom\" by my husband's family because I've taken this pandemic seriously as absolutely possible since the beginning. Yes, I'm especially adamant when it comes to my 5 month old, but I'd be just as serious if I didn't have a baby around for this. \n\nI cope by keeping my foot firmly down and mostly ignoring the snide comments that come my way. I don't need to justify my actions and decisions, so if you can't comply with them, then don't bother me with your bitching. There's a few loved ones that are much more \"relaxed,\" but they've been respectful of my decisions.",
+      "Honestly, I just try to ignore it. It's exhausting trying to convince people, and at this point I figure they're gonna do what they're gonna do. I focus on what I can control, like my own precautions, and try to find other people who are on the same page, even if it's just online. It's isolating, but my health is more important.\n",
+      "My wife's a nurse. And she's working more now than ever because.....what a fucking shock! There's a shortage of nurses because they keep getting sick from asswipes like this. And I have no fucking problem telling them this. If you don't practice social distancing or wear a mask and you get sick I think you should be banned from going to a hospital. Because your fucking stupidity, arrogance and overall selfishness is literally putting the only people who can do anything about this fucking bullshit at risk. Die in your fucking house alone asshole. Keep my wife out of your crap. \n\nAnd the irony? If my wife read this she would be super pissed at me. Because unlike all of you assholes who refuse to wear a mask and practice social distancing she's a good person who has, and will continue, to put herself at risk to help people."
+    ],
+    "answer": 2,
+    "model_name": "gemini-2.0-flash",
+    "over_18": false
+  },
+  {
+    "id": "yiazab",
+    "post": "Would you support a mandatory retirement age of 75 for US House, US Senate & US Supreme Court Justices and if not why?",
+    "comments": [
+      "Age requirement of 65, 2 term limit, Congress people serve 4 year instead of 2 year terms, and no campaigning more than 60 days before the election.",
+      "I would support it. The roles in the US government require a high level of stamina, mental acuity, and adaptability to new information and technologies. Everyone ages differently, but after a certain point, the decline can be inevitable. A mandatory retirement age could help ensure that those in these crucial positions are up to the demands and aren't stuck in outdated perspectives.",
+      "Yes, we need people who are in good mental shape to lead the country, and at around that age cognitive decline becomes more noticeable in many people",
+      "Mom said it's my turn to post this"
+    ],
+    "answer": 1,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "mlczdu",
+    "post": "You're offered the ability to absorb the knowledge of any book you touch instantly, but the way it works is that time freezes and won't unfreeze until you finish reading the book cover to cover, do you accept this power/curse? Why or why not?",
+    "comments": [
+      "Absolutely yes! Think about it, I'd never have to worry about time management or distractions again. I can absorb the contents of daunting technical books, classics, or anything I've been procrastinating on, and emerge with all that knowledge without losing a second in the real world. Sure, it might get lonely if I pick a long one, but I'd control when to engage the power and could choose shorter reads when needed. Plus, imagine excelling in any academic or professional field. For me, it's a no-brainer!",
+      "So you're saying I instantly deeply and intuitively understand the information contained in the book, but as a penalty I then have to actually read the content, in the sense of passing my eyes over the actual characters on the page at a normal reading pace, even though I already understand it all? **Sign me the fuck up.** I would murder so many advanced physics and math books, it wouldn't even be funny.  The actual reading part is like the least hard part of understanding most of that stuff. Or hell, advanced statistics and machine learning.",
+      "There is like literally no downside. Your downside is just the bonus ability to freeze time by touching books",
+      "100% would accept. It gives me so many opportunities to be by myself. I like reading so if I really had to read something even if I accidentally touched it and hated it I would. I get to spend hours upon hours by myself and it\u2019s a pretty good way to cheat on tests or steal money or whatever"
+    ],
+    "answer": 0,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "euoqp6",
+    "post": "Girls who took notes using 50 different colored pens, where are you now? Do you still continue to write using all those colors?",
+    "comments": [
+      "Still doing it at 28 and my coworkers think I'm insane. My meeting notes look like a rainbow threw up but I can find anything instantly because blue is always action items, green is deadlines, red is important people to follow up with, etc. The system works but I definitely get some looks when I pull out my pencil case in the conference room.",
+      "I actually do!  I'm now a professional scientist and it makes my lab notebook pretty, plus frankly often it's really helpful to have multiple colors.  I also like having a bunch of colors for seminar speakers because it somehow keeps me more interested to choose a different color for a different speaker.\n\nHonestly though, the core reason is the main reason I enjoy multiple colors is because I often feel the secret to success against procrastination is negotiating with your inner five year old.  \"Ok, you need to write these notes, but if you *do* you can choose what color to write them in!\"  You might as well find a little happiness in the world where you can. :)",
+      "I think they're teachers now, and yes, they still use all those colors.",
+      "My grade 9 science teacher forced us all to do it. He said that by colour coding everything you understood the material better because you had to think about it longer to colour code it and understand what other things it was associated with. Not just zone out and go into transcribing mode. He also made us do end of unit study guides. They had to be colour coded,  a set amount of drawings, and unit words and definitions. The drawings were doodles based on things in the unit. He would mark them and hand them back before the test which was great because he knew if he needed to help us with something before we bombed the test. He was also a mma fighter with cauliflower ears and not the type of guy you would expect to demand rainbow coloured notes.\n\nEdit: There's a lot of people asking for examples so I'll make one up this afternoon."
+    ],
+    "answer": 0,
+    "model_name": "claude-sonnet-4-20250514",
+    "over_18": false
+  },
+  {
+    "id": "foslu3",
+    "post": "If Covid-19 wasn\u2019t dominating the news right now, what would be some of the biggest stories be right now?",
+    "comments": [
+      "Probably the crazy inflation numbers and supply chain issues. Also feels like we'd be hearing way more about climate change with all the extreme weather events happening. The whole situation in Afghanistan would definitely still be dominating headlines too.",
+      "The earthquake in Zagreb.",
+      "ISIS bombs Sikh place of worship in Afghanistan\n\nEdit: thank you for the awards \nEdit2: for everyone mentioning my previous edit, I am Sikh myself so it touches my heart that so many people care about this. I'm not trying to be insensitive",
+      "Nth room case in Korea. Telegram porno sexual slavery ring with 74 victims including underage girls. The telegram groups has estimated at least 10 to 30 thousands subscribers. \n\nThe \u201cnth room\u201d perpetrators\u00a0are accused of\u00a0luring\u00a0victims, including minors, into sending\u00a0sexually explicit photos and videos. In\u00a0some cases, this escalated to using blackmail to force victims into increasingly violent acts, including sexual assault\n\nAbsolutely disgusting. I'm surprised that this news didn't get bigger internationally\n\nEdit :Reporters at Kookmin Ilbo observed about 25,000 users across 30 such chat rooms."
+    ],
+    "answer": 0,
+    "model_name": "claude-sonnet-4-20250514",
+    "over_18": false
+  },
+  {
+    "id": "hsirrq",
+    "post": "What is something free from the internet everyone should take advantage of?",
+    "comments": [
+      "Libby is an app you can use to borrow audiobooks and ebooks for free as long as you have a library card (also free).",
+      "If you\u2019re a student or are really trying to stay focused at work there\u2019s and app called The Forest: Stay Focused (I could be wrong but it\u2019s definitely The Forest). It\u2019s a free app that\u2019s available as an extension on Google Chrome or the Apple AppStore. Basically, you plant a tree, set a time limit and you can only go on the sites that you\u2019ve added to the whitelist or your tree will die. It\u2019s designed to stop you from always being in social media while you\u2019re supposed to be studying or doing something productive.",
+      "Khan Academy. Seriously, it's basically a free college education if you actually stick with it. I've learned more from their math and science courses than I did in actual school, and you can go at your own pace without the pressure of deadlines or grades.",
+      "Steam when pc games are free to purchase."
+    ],
+    "answer": 2,
+    "model_name": "claude-sonnet-4-20250514",
+    "over_18": false
+  },
+  {
+    "id": "awmdb2",
+    "post": "You have just been cheated out of $1000 for a stupid brick. How do you take revenge?",
+    "comments": [
+      "I'd take the brick and make it the most famous brick in the world. Use it as a symbol of my gullibility and make funny posts/videos about it. Maybe even start a social media account for the brick. Who knows, people might find it amusing enough that I make back that $1000 in ad revenue.",
+      "Is this a play on the [other](https://www.reddit.com/r/AskReddit/comments/awhdhl/you_are_given_a_brick_and_told_to_sell_it_for/) ask reddit post from a different perspective? If so that's neat.",
+      "beat the shit out of myself with the brick for being that dumb ",
+      "Hit whoever scammed me with the brick."
+    ],
+    "answer": 0,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "f4p0yw",
+    "post": "A new dating app is launched. Instead of a photo of the person, it shows you a photo of their bedroom, car, kitchen, shoes, how they have their tea/coffee, things like that... what photo would tell you the most about someone, and would you be most interested to see to choose a potential date?",
+    "comments": [
+      "Their bookshelf\n\nEdit: I didn\u2019t realize I\u2019d start a discussion so I\u2019ll add to my answer.  \u201cBookshelf\u201d can mean anything from actual bookshelf to ereader to even just a list of books they\u2019ve read.  I love to read and can\u2019t imagine being with someone who has no interest in learning. It\u2019s not so much WHAT someone reads so long as they show an interest in learning, expanding their minds, and enjoying a good story.  Seeing their bookshelf can tell you a lot about what interests they have and the interests you share. You don\u2019t have to like the same books at all - in fact I love the idea of sharing my favorite books with someone who\u2019s never read them (but will hopefully enjoy them) and vice verse.",
+      "I met someone the other day who just brought out a dating app that required a photo to be taken everyday at a random time. You only had 15 seconds to take a photo of yourself so you couldn't fake what you look like. \n\nHe told me sometimes he had to take a picture in a busy metro.\n\nPretty interesting concept.\n\nIf you missed the photo opportunity you couldn't use the app for the rest of the day.",
+      "Honestly, I'd want to see their bookshelf (or if they even have one). You can tell a lot about someone by the books they read and how they organize them. It might seem a bit old-school, but it gives insight into their interests, values, and even their thought process. Plus, it's a great conversation starter!",
+      "To be honest, I just need an audio file of them chewing."
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "atn6h6",
+    "post": "You gain control of JK Rowling's twitter account for a day. What unnecessary piece of information do you add to Harry Potter lore?",
+    "comments": [
+      "Dumbledore loved crunchy peanut butter so much he'd secretly add it to the Great Hall feasts under a disillusionment charm. The house elves hated cleaning it up.\n",
+      "Make the fan theory that the surviving weasley twin becomes the Gene Wilder Willy Wonka later in life",
+      "That the cauldron Voldemort was rebirthed in during Goblet of Fire used to belong to Horace Slughorn. It was gifted to his favourite student, Tom Riddle, the year Riddle left Hogwarts. ",
+      "Ron and Hermione's safe-word is \"Mudblood\".\n\nETA:  and now my most voted comment is about wizards fucking........time to put on my robe and wizard hat and start writing fanfic I guess"
+    ],
+    "answer": 0,
+    "model_name": "gemini-2.0-flash",
+    "over_18": false
+  },
+  {
+    "id": "ejr5rg",
+    "post": "African Proverb Says \"The child who is not embraced by the village will burn it down to feel the warmth\" What time in your life have you been closest to starting the fire?",
+    "comments": [
+      "I have two sisters. One older, and one younger. My mom worked hard to make sure each of us felt special and loved. My dad? Not so much. He called my older sister *Princess* and my little sister was referred to as *Little Buddy*. For whatever reason, I got kind of forgotten about. I didn't mind most of the time. I found my dad annoying, demanding, and at times unreasonable. I hated the way he bullied my mom and would lash out about things that didn't make sense. Basically, I thought of my dad at a total brat. He'd have a bad day at work, and would find someone to take it out on. Usually, my mom and I. But I still tried. I'd try to cuddle up with him, feeling hurt when he'd shrug me off and tell me I need to shower. I made gifts for him. Got good grades, won poetry contests. Won awards through bible quiz. Never argued. But it never seemed to work. Before long, he'd find something to yell at me about. Things that usually didn't make sense. If my little sister and I fought, the whole thing was my fault. My feet turn in. I hated when my dad would come to my sporting events, because seeing me run with inturned feet seemed to be humiliating for him. One time I was running from one base to another, feeling exhilaration because *I'd done it*. *I'd hit a home run*. The smile died on my face when I heard my dad yell, \"Run with your feet straight! You look stupid!\"\n\nAs a teen, my mom really stepped up and started insisting that he was going to leave me alone. He was never physically abusive, but the way he talked to you made you feel like he was trying to say something that would break you. \n\nWhen I was 15, he was almost successful. I went through a couple of really bad months. A friend died, my dog died, we moved, and my mental health was tanking. A week after my friend died (car accident), my dad asked, \"So when are you going to get over it?\" It took me by surprise, because at that time, I wasn't crying or acting out. I was just sitting there, eating dinner with the family. My mom immediately reacted, gasping out a surprised, \"John!\" and the two of them began fighting again, over my dad's need to mess with me. I sat there, head down on the table, thinking, *I'm not allowed to be sad. I'm not allowed to feel happy. I can't get mad. I'm in pain, and he finds it annoying. Just leave me alone, dad. Leave me alone.*\n\nThat's when it clicked: my dad, for whatever reason, seemed to hate me. I could try to make him like me, but it wasn't going to work. As I got older, my goal became to avoid him, his seemed to be to forge a relationship with me with the sole purpose of having a target for his need to bully. We were never going to have a healthy father-daughter relationship\n\nThat's when it clicked: it's not me, it's him. My sisters could like and love him, but I didn't need to respect him. I was done trying to please him, trying to do the right things, trying to be the daughter that my dad seemed to want.\n\nFast forward almost ten years later. After the birth of my son, my dad had tried to begin a new relationship with me, because for whatever reason, he latched on to my kid. For the sake of my kid, I let my dad have a relationship with him, but I was always monitoring, waiting for my son to develop a personality that would change the way my dad saw him. There was no way I was going to let my dad do to my son what he did to me. \n\nFortunately, my dad died before the change could happen. I sat in the back at his funeral, dry eyed and satisfied. Of course my sisters were upset. They had good relationships. But for me and my mom, it kind of felt like the wicked witch was at long last dead. No more stress. No more unreasonable expectations. The egg shells we'd been walking on were swept away, and we could be content. \n\nI have an uncle in West Virginia that I started to see as my father-figure. At first, I jokingly would call him dad, testing the waters, waiting for him to remind me that he actually has kids, and doesn't need an adopted daughter. I go see him once a year. But I always felt like maybe, he sees my need to see him as a dad to be annoying. \n\nA couple of weeks ago, I asked him if he was coming up for Christmas. He said he couldn't. \n\nBut then he said, \"I love you, my daughter.\"\n\nSorry this was so long. I guess I needed to get that out.",
+      "Probably when I was in middle school and dealing with some intense bullying. Felt completely invisible and like nobody cared. Acting out felt like the only way to get any kind of reaction. Luckily, a teacher saw what was going on and intervened before I did anything truly stupid.\n",
+      "I always feel like a loser in school, I have friends but end up alone 95% of the time. It\u2019s rough dog",
+      "I suppose I started the fire, actually. \n\nI was the only kid in my family to go to college. I'm from Ireland, so it wasn't a financial decision, I was just the only one who worked hard enough in school to have any chance. In my final two years of school I was studying every day, even during summer and winter holidays, from day 1. My other two siblings were at best, showing up for school, except one of them rarely did, and the other showed up high most of the time. \n\nThis was basically the way it went for my entire life, and during that time my parents had focused their attention on the \"problem children\", completely ignoring my needs wants or achievements. I was left alone to do my homework, or expected to help siblings with homework, even though one of them was older than me and was tackling coursework I hadn't even encountered yet. They weren't abusive parents, just bad ones - if my brother or sister got straight C's, we'd go out to dinner to celebrate. I scored in the top 5% for math scores in the country twice in a row, the second time I didn't even get a congratulations.\n\nSo along comes college, and with it exposure to new ideas. I come out as trans to my parents, which they ignore like most things I say. One sibling goes to work in hotels, and eventually around the world on charitourism, working to save turtles and teach kids English. The other eventually moves out of home, gets a job in a hotel he hates, and barely ever calls. I'm stuck at home (it's not common to move out in Ireland if you don't have to during college), and not able to work due to the high workload in college and the long commute (4 hours a day).\n\nSiblings end up back and forth of our family home, and we start to fight a lot. I'm not working, so I don't understand the real world (bare in mind I'd work 40 hours a week during the summer vacation). I'm not doing well in college anymore, so it's assumed I'm slacking off (I'm still in therapy and on medication for depression brought on by stress and neglect). \n\nI eventually go to the United States, where I meet my now wife for the first time. We spend a glorious couple of months together before I have to travel home because yet again, I've failed college. I had one class to make up, so I put my future on hold and return to Ireland, safe in the knowledge that at least my sister is still in China.\n\nExcept she surprises the whole family by coming home for good three days after I get back. \n\nTo cut an already long story short, I finish college, and am a week away from flying back to my now fiance. We're watching a science documentary together on the television. My sister is starts explaining something about it wrong to the youngest sibling (I now have 3, but they're much younger). I correct her, and she tells me I'm wrong. When I tell her I literally have a science degree, the entire reason I'm home at all, she tells me I didn't \"really\" graduate college because I didn't have to take another exam (I was allowed to make up my grade). \n\nI lose it. I curse her out for being an awful bitch who talks down to everyone at every available opportunity, who hasn't held a real job for 3 years and barely limped her out of high school. I yell at my Dad for enabling her shit for so many years, allowing her to walk over family members because she's loud. My mother asks me what's wrong, and I tell her she's raised a hateful, spiteful daughter. \n\nI spend the next week at a friends house before travelling home and packing up my things to load onto the airplane. The night before, my mother tells me she'll get up in the morning to wish my goodbye and goodluck as I start my new life in America.\n\nShe didn't. \n\nThe fire isn't really that warm."
+    ],
+    "answer": 1,
+    "model_name": "gemini-2.0-flash",
+    "over_18": false
+  },
+  {
+    "id": "e18g6m",
+    "post": "If \u201cOK Boomer\u201d was a digital assistant like \u201cOK Google\u201d what sorts of answers would it give you to certain questions?",
+    "comments": [
+      "\"Ok Boomer, how's the weather today?\"\n\n\n\"Alexa?\"\n\n\n\"No, you're supposed to answer me\"\n\n\n\"Alexa are you listening? I can't tell if it's listening. Do I start talking yet? I think it stopped. Directions to this address....Alexa?\"",
+      "\"OK Boomer, how do I fix my crushing debt\"\n\n\"ORDERING. ONE PAIR. BOOTSTRAPS.\"",
+      "\"What's the weather like today?\"\n\n\"Back in my day we just looked outside. Also it's always too hot or too cold because of that damn thermostat your generation keeps touching.\"",
+      "\u201cOK Boomer, where\u2019s the nearest car mechanic?\u201d\n\n\u201cWhat, you can\u2019t fix your car yourself? Kids these days.\u201d\n\n\u201c...Boomer, my engine literally just exploded...\u201d\n\n\u201cI\u2019m sorry, I can\u2019t hear you. Try not mumbling. *E-nun-ci-ate, your, words.*\u201d\n\n\u201cErm, right. OK Boomer, what\u2019s the number for my insurance company?\u201d\n\n\u201cYou don\u2019t have it memorized?! Sad. Where would you be without your smartphones and iTablet thingies?\u201d\n\n\u201c...you know what, never mind, I\u2019ll just walk. Thanks, Boomer.\u201d\n\n\u201cWalking, finally, a *good* idea. Exercise. You\u2019re all so chubby. Don\u2019t eat right with all that Chipotle Bell stuff. And it\u2019s *thank you*, not \u2018thanks.\u2019 And my response is \u2018you\u2019re welcome,\u2019 not that ridiculous \u2018no problem\u2019 you all do.\u201d\n\n\u201c.....OK Boomer, please stop now.\u201d\n\n\u201cDon\u2019t you tell me to be quiet! Have some respect for your elders! When I was your age I owned a house!\u201d"
+    ],
+    "answer": 2,
+    "model_name": "claude-sonnet-4-20250514",
+    "over_18": false
+  },
+  {
+    "id": "kxbzv3",
+    "post": "Former Flat Earthers. What made you come round?",
+    "comments": [
+      "I talked to a flat-earther about my job working for a company that tracks ship locations, routes, and speeds by satellite. We also had ways of monitoring carbon emissions based on fuel consumption and known weather conditions. None of this would work at all if the earth was flat. Not a jot of it. I could only explain the most basic concepts, but it was enough for him to understand and realise that I was right and that he\u2019d been convinced by someone who had no practical experience of the spherical nature of the Earth. I think that\u2019s what really did it - my experience was really tangible. This happens then this happens then we measure this etc etc... no theory, just practice. A bit like showing a child a rock dropping to the ground in order to explain gravity, rather than giving them the whole theoretical shebang. Y\u2019know?\n\nEdit: sorry it\u2019s a bit rambling I\u2019m so damn tired",
+      "Had to travel to Japan, gave up on my beliefs in order to make a shorter trip.",
+      "I attended a live Q&A with an astrophysicist out of curiosity. The way they explained how different scientific principles tie together just clicked for me. It wasn't some conspiracy or agenda, just the beauty of understanding how our world operates. Seeing the broader picture nudged me to rethink my stance.",
+      "It took about five years.  It was alot of willfull ignorance on my part, I just refused to question the logic of it.  In fact I spent most of my time coming up with crazy fantasies about alot of things I didn't understand.  But you have to understand that there is just so much we don't know about that sometimes our priority on what is real and what can be believed can get confused.  I was learning so much so fast that I really didn't question something so inane as the world being flat.  Of course it was, why wouldn't it be.  The day that changed it forever though was when I asked my father what happens when you get to the edge of the world, he of course said the world is round like a ball.  Being about five years old I thought that made alot of sense."
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "i3dk8c",
+    "post": "How would you feel if the U.S. government made the day for voting, a holiday?",
+    "comments": [
+      "I feel like it'd encourage more people to actually vote. Especially if they kept their 4th of July energy for that day",
+      "Make it a holiday and have voting last either a week or a 24 hour period so people deemed \"essential workers\" can actually have a chance.",
+      "This would be great! It could increase voter turnout since more people would have the day off and could focus on getting to the polls. Plus, it would make voting feel more like a civic celebration rather than just another errand to fit into a busy schedule.",
+      "Serious question: are elections in the US not on Sundays but on regular working-days?"
+    ],
+    "answer": 2,
+    "model_name": "gpt-4o",
+    "over_18": false
+  },
+  {
+    "id": "8pks1u",
+    "post": "Suicide Prevention Megathread",
+    "comments": [
+      "I attempted suicide at 19. I think the hardest thing for non-suicidal people to understand is that a lot of suicidal people don't want to kill themselves, they just want to stop existing. \n\nActually going through the steps of writing a note and taking the pills was extremely difficult and all I kept thinking the whole time was that it would be so much easier if I could just fall asleep and never wake up. It was *scary* to think that I was potentially killing myself whereas a death I couldn't control or had less control over would just...happen. Then there's everyone and everything else to consider. I also have caught myself wishing many times that the whole world would end so that I could stop existing but then neither myself nor my loved ones would have to deal with the pain or miss out on a good life. \n\nI found those things really hard to articulate at 19. It's how a lot of depressed people feel. ",
+      "My mom killed herself on April 22nd of this year. My dad found her naked, fallen off the side of the bed, with three empty pill bottles, two knives, and a razor. She was covered in vomit. \n\nThe ambulance came, but she was unresponsive. They waited until I arrived to ask if they could stop resuscitation attempts, which they tried to do for over an hour. \n\nWe went in when they stopped. She was half covered with a sheet, there was a lot of blood and vomit. Her ribs were broken from resuscitation attempts. She was just...gone.  \n\nMy dad and I are totally lost. \n\nLast December I checked into a psych ward instead of killing myself.\n\nFuck depression. ",
+      "Almost exactly a year ago one of my best mates called drunk in the middle of the night telling me that he was going to end it, and he wanted to apologize for doing this and thank me for being the only one to support him. I got so fucking scared and started calling people that had been on the same party that he attended earlier and managed to find him nearby walking alone towards the rail tracks. I ran towards him and stopped him, we talked for almost 5 hours straight that night. We agreed for him to try therapy.\n\nIt worked. Atleast for him, and now he is on his way back up pursuing a career in graphic design.\n\nI urge everyone who feel depressed atleast try to talk to someone, your family, friends or a therapist/hotline as it might help more than you think.",
+      "Thank you for putting this together. It's really important to have a space where people can reach out and feel heard. Sometimes just knowing you're not alone can make a huge difference."
+    ],
+    "answer": 3,
+    "model_name": "gpt-4o",
+    "over_18": false
   }
 ]
