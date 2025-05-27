@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Leaderboard - AI Impostor</title>
+  <link rel="icon" href="static/favicon.png" type="image/png">
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -12,10 +13,27 @@
       max-width: 600px;
       margin: auto;
     }
+     .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 20px;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      font-weight: bold;
     }
     th, td {
       padding: 12px;
@@ -36,6 +54,13 @@
   </style>
 </head>
 <body>
+    <div class="container">
+    <nav>
+      <a href="/">Home</a> |
+      <a href="/about">About</a> |
+      <a href="/leaderboard">Leaderboard</a>
+    </nav>
+
   <h1>🎯 Leaderboard</h1>
   <p style="text-align: center; margin-top: 10px; font-size: 1.05em;">
     Which model is the <strong>most deceptive</strong>? This leaderboard ranks AI by how often humans fail to spot them.
