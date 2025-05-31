@@ -30,7 +30,7 @@ def generate_prompt(post):
         f'- Avoid emojis\n'
         f'- Use natural tone and phrasing\n'
         f'- Do not explain or introduce the comment\n'
-        f'- Output only the comment text (no preamble or formatting)'
+        f'- Output only the comment text (no preamble or formatting)\n'
         f'- Decide whether you should answer genuinely, sarcastically, or some other style'
     )
 
@@ -70,7 +70,7 @@ def call_claude_model(prompt, model_name):
 
     message = client.messages.create(
         model=model_name,
-        max_tokens=500,
+        max_tokens=5000,
         temperature=1,
         messages=[
             {"role": "user", "content": prompt}
@@ -84,9 +84,26 @@ def call_claude_model(prompt, model_name):
 
     return ai_comment
 
+def call_deepseek_model(prompt, model_name):
+    client = OpenAI(api_key=os.getenv("DEEPSEEK_API_KEY"), base_url="https://api.deepseek.com")
+
+    response = client.chat.completions.create(
+        model=model_name,
+        messages=[
+            {"role": "user", "content": prompt}
+        ],
+        stream=False
+    )
+
+    ai_comment = response.choices[0].message.content
+
+    logging.info(ai_comment)
+
+    return ai_comment
+
 
 def generate_game_round(post):
-    top_comments = [c.body for c in post.comments if hasattr(c, 'body') and len(c.body) > 20 and c.score > 500]
+    top_comments = [c.body for c in post.comments if hasattr(c, 'body') and len(c.body) > 10 and c.score > 500]
     if len(top_comments) < 3:
         return None
 
@@ -96,13 +113,16 @@ def generate_game_round(post):
         "gpt-4o",
         "gemini-2.0-flash",
         "claude-sonnet-4-20250514",
-        "gemini-2.5-pro-preview-05-06"
+        "gemini-2.5-pro-preview-05-06",
+        "deepseek-reasoner",
+        "o4-mini-2025-04-16"
     ]
 
     model_name = random.choice(model_names)
 
     logging.info(f"Using model: {model_name}")
 
+    # TODO: Store function to call with model name
     if model_name == "gpt-4o":
         ai_comment = call_chatgpt_model(prompt, model_name)
     elif model_name == "gemini-2.0-flash":
@@ -111,6 +131,10 @@ def generate_game_round(post):
         ai_comment = call_gemini_model(prompt, model_name)
     elif model_name == "claude-sonnet-4-20250514":
         ai_comment = call_claude_model(prompt, model_name)
+    elif model_name == "deepseek-reasoner":
+        ai_comment = call_deepseek_model(prompt, model_name)
+    elif model_name == "o4-mini-2025-04-16":
+        ai_comment = call_chatgpt_model(prompt, model_name)
     else:
         print("No Model Selected")
 
@@ -125,7 +149,9 @@ def generate_game_round(post):
         "comments": all_comments,
         "answer": all_comments.index(ai_comment),
         "model_name": model_name,
-        "over_18": post.over_18
+        "over_18": post.over_18,
+        "subreddit": post.subreddit.display_name,
+        "created_utc": post.created_utc
     }
 
 def load_existing_rounds(path="game_rounds.json"):
@@ -143,9 +169,20 @@ def main():
 
     logger.info("Starting to scrape posts...")
 
-    for post in subreddit.top(time_filter="all", limit=100):
+    i = 0
+    for post in subreddit.top(time_filter="all", limit=215):
+        logging.info(f"Iteration: {i}")
+        i = i+1
         if post.id in existing_ids:
             logger.info(f"Skipping duplicate post: {post.id}")
+            continue
+
+        if post.over_18:
+            logger.info(f"Skipping NSFW post: {post.id}")
+            continue
+
+        if any(sub in post.title for sub in []):
+            logger.info(f"Don't want to deal with it: {post.id}")
             continue
 
         logger.info(f"Processing post title: {post.title} id: {post.id} ")
